@@ -89,12 +89,13 @@ img {
 
 .header_menu {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .header_menu ul li {
-    display: inline;
+    display: inline-block;
     margin-left: 25px;
+    margin-top: 10px;
     
 }
 
@@ -262,7 +263,7 @@ img {
     background: #fec63e;
 }
 
-.portfolio_lista li:last-child {
+.portfolio_lista div:last-of-type {
     margin-top: 20px;
 }
 
